@@ -1,0 +1,273 @@
+.aboutSection {
+    width: 100%;
+    height: auto;
+}
+
+.aboutText {
+    height: auto;
+    max-width: 100%;
+
+    flex: 1 1 100%;
+    align-self: center;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 19% 7% 0 7%;
+}
+
+.aboutHeading {
+    font-family: 'TT Norms Pro Bold';
+    font-style: normal;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    color: #121E0E;
+}
+
+.aboutParagraph {
+    font-family: 'TT Norms Pro Regular';
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #121E0E;
+    padding: .7rem 0 .8rem 0;
+}
+
+.aboutList {
+    font-family: 'TT Norms Pro Regular';
+    font-size: 1rem;
+    line-height: 2.7rem;
+    color: #121E0E;
+
+    text-align: start;
+    align-self: center;
+}
+
+ul.aboutIcon {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+ul.aboutIcon li {
+    text-indent: 0;
+    position: relative;
+}
+
+
+ul.aboutIcon span {
+    padding-right: 2rem;
+} 
+
+ul.aboutIcon .bi-check {
+    color: #FE5000;
+    background: none;
+    font-size: 13px;
+    position: absolute;
+    top: -7px;
+    left: 1.5px;
+}
+
+.checkCircle {
+    border-radius: 50%;
+    border: none;
+    width: 16px;
+    height: 16px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 6.5px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.aboutPicture {
+    width: 100%;
+    height: auto;
+
+    flex: 1 1 100%;
+    align-self: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12% 0;
+}
+
+.aboutPicture img {
+    width: 80%;
+    height: auto;
+}
+
+@media only screen and (min-width: 420px) {
+    
+    
+}
+
+
+@media only screen and (min-width: 720px) {
+    .aboutSection {
+        background: #E5E5E5;
+        display: flex;
+    }
+
+    .aboutText {
+        height: auto;
+        max-width: 100%;
+
+        flex: 0 1 50%;
+        align-self: center;
+        /* text-align: center; */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10%;
+    }
+
+    .aboutHeading {
+        font-family: 'TT Norms Pro Bold';
+        font-style: normal;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        color: #121E0E;
+        align-self: flex-start;
+    }
+
+    .aboutParagraph {
+        font-family: 'TT Norms Pro Regular';
+        font-style: normal;
+        font-size: .85rem;
+        line-height: 1.4rem;
+        color: #121E0E;
+        padding: .5rem 0 .5rem 0;
+
+        text-align: left;
+        align-self: flex-start;
+    } 
+
+    .aboutList {
+        font-family: 'TT Norms Pro Regular';
+        font-size: .75rem;
+        line-height: 1.9rem;
+        color: #121E0E;
+
+        text-align: left;
+        align-self: flex-start;
+    }
+
+    ul.aboutIcon span {
+        padding-right: 1.5rem;
+    }
+
+    .aboutPicture {
+        width: 90%;
+        height: 90%;
+
+        flex: 0 1 50%;
+        align-self: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10% 0;
+    }
+
+    .aboutPicture img {
+        width: 85%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .aboutSection {
+        width: 100%;
+        height: auto;
+
+        background: #E5E5E5;
+        display: flex;
+    }
+
+    .aboutText {
+        height: auto;
+        max-width: 100%;
+
+        flex: 0 1 50%;
+        align-self: center;
+        /* text-align: center; */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10%;
+    }
+
+    .aboutHeading {
+        font-family: 'TT Norms Pro Bold';
+        font-style: normal;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        color: #121E0E;
+        align-self: flex-start;
+    }
+
+    .aboutParagraph {
+        font-family: 'TT Norms Pro Regular';
+        font-style: normal;
+        font-size: .85rem;
+        line-height: 1.4rem;
+        color: #121E0E;
+        padding: .5rem 3rem .5rem 0;
+
+        text-align: left;
+        align-self: flex-start;
+    }
+
+    .aboutList {
+        font-family: 'TT Norms Pro Regular';
+        font-size: .75rem;
+        line-height: 1.9rem;
+        color: #121E0E;
+
+        text-align: left;
+        align-self: flex-start;
+    }
+
+    ul.aboutIcon {
+        list-style-type: none;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    ul.aboutIcon li {
+        text-indent: 0;
+    }
+
+
+    ul.aboutIcon span {
+        padding-right: 1.75rem;
+    } 
+
+    ul.aboutIcon .bi-check {
+        color: #FE5000;
+        background: none;
+    }
+
+    .aboutPicture {
+        width: 90%;
+        height: 90%;
+
+        flex: 0 1 50%;
+        align-self: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10% 0;
+    }
+
+    .aboutPicture img {
+        width: 75%;
+        height: auto;
+    }
+}

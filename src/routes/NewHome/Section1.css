@@ -1,0 +1,255 @@
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+        
+    50% {
+        transform: translate(0, 4px);
+    }
+}
+
+@keyframes leftRight {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+        
+    50% {
+        transform: translate(4px, 0);
+    }
+}
+
+@keyframes diagonal {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+        
+    50% {
+        transform: translate(4px, 4px);
+    }
+}
+
+.redBorder {
+    border: 1px solid red;
+}
+
+.section1 {
+    width: 100%;
+    height: 100vw;
+    background-color: #F9F8F7;
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    z-index: -1;
+}
+
+h1.section1-text {
+    width: 95%;
+    font-family:'TT Norms Pro Bold';
+    font-size: 3.2rem;
+    line-height: 3.3rem;
+    color: #121E0E;
+    z-index: 1;
+}
+
+span.hassle {
+    color: #FE5000;
+}
+
+.confetti-mobile {
+    position: absolute;
+    z-index: 0;
+    width: 1.5rem;
+}
+
+.c33 {
+    top: 10%;
+    left: 70%;
+    animation: diagonal 2s infinite;
+}
+
+.c35 {
+    top: 15%;
+    left: 40%;
+    animation: bounce 2s infinite;
+}
+
+.c37 {
+    top: 55%;
+    left: 93%;
+    animation: leftRight 2s infinite;
+}
+
+.c38 {
+    top: 60%;
+    left: 70%;
+    animation: diagonal 2s infinite;
+}
+
+.c39 {
+    top: 20%;
+    left: 0%;
+    animation: bounce 2s infinite;
+}
+
+.c40 {
+    top: 75%;
+    left: 45%;
+    animation: leftRight 2s infinite;
+}
+
+.c41 {
+    top: 75%;
+    left: 85%;
+    animation: diagonal 2s infinite;
+}
+
+.c42 {
+    top: 70%;
+    left: 5%;
+    animation: bounce 2s infinite;
+}
+
+.confetti-desktop {
+    position: absolute;
+    display: none;
+}
+
+@media only screen and (min-width: 420px) {
+    .section1 {
+        height: 80vw;
+    }
+
+    h1.section1-text {
+        width: 95%;
+        font-family:'TT Norms Pro Bold';
+        font-size: 12vw;
+        line-height: 12vw;
+        color: #121E0E;
+        z-index: 1;
+    }
+
+}
+
+@media only screen and (min-width: 720px) {
+    .section1 {
+        height: 60vw;
+    }
+
+    h1.section1-text {
+        width: 95%;
+        font-family:'TT Norms Pro Bold';
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+        color: #121E0E;
+        z-index: 1;
+    }
+
+}
+
+@media only screen and (min-width: 960px)
+{
+    .section1 {
+        width: 100%;
+        height: 40vw;
+        background-color: #F9F8F7;
+        position: relative;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    h1.section1-text {
+        width: 85%;
+        font-family:'TT Norms Pro Bold';
+        font-size: 6rem;
+        line-height: 6rem;
+        color: #121E0E;
+        z-index: 1;
+    }
+}
+    
+@media only screen and (min-width: 720px)
+{
+    .confetti-desktop {
+        display: block;
+        width: 1.5rem;
+    }
+
+    .confetti-mobile {
+        display: none;
+    }
+
+    .cd27 {
+        top: 60%;
+        left: 90%;
+        animation: diagonal 2s infinite;
+    }
+
+    .cd33 {
+        top: 10%;
+        left: 60%;
+        animation: bounce 2s infinite;
+    }
+
+    .cd34 {
+        top: 15%;
+        left: 25%;
+        animation: leftRight 2s infinite;
+    }
+
+    .cd35 {
+        top: 85%;
+        left: 25%;
+        animation: diagonal 2s infinite;
+    }
+
+    .cd36 {
+        top: 85%;
+        left: 80%;
+        animation: bounce 2s infinite;
+    }
+
+    .cd37 {
+        top: 60%;
+        left: 10%;
+        animation: leftRight 2s infinite;
+    }
+
+    
+    .cd38 {
+        top: 5%;
+        left: 85%;
+        animation: diagonal 2s infinite;
+    }
+
+    .cd39 {
+        top: 5%;
+        left: 5%;
+        animation: bounce 2s infinite;
+    }
+
+    .cd40 {
+        top: 45%;
+        left: 70%;
+        animation: leftRight 2s infinite;
+    }
+
+    .cd41 {
+        top: 70%;
+        left: 40%;
+        animation: diagonal 2s infinite;
+    }
+
+    .cd42 {
+        top: 45%;
+        left: 40%;
+        animation: bounce 2s infinite;
+    }
+}

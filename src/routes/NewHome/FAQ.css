@@ -1,0 +1,59 @@
+
+.FAQSection {
+    width: 100%;
+    height: auto;
+    background-color: #FFFF;
+    padding-bottom: 4%;
+}
+
+.FAQHeading {
+    font-family: 'TT Norms Pro Bold';
+    font-style: normal;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    color: #121E0E;
+    
+    text-align: center;
+    padding: 0 8% 0 8%;
+    margin-top: 8%;
+    padding-bottom: 1% !important;
+}
+
+@media only screen and (min-width: 420px)
+{
+    .FAQHeading {
+        padding: 0 5% 8% 5%;
+    }   
+    
+}
+
+
+@media only screen and (min-width: 720px)
+{
+    .FAQHeading {
+        font-size: 1.8rem;
+        line-height: 2rem;
+        padding: 0 5% 8% 5%;
+    }   
+
+}
+
+
+@media only screen and (min-width: 960px)
+{
+    .FAQSection {
+        width: 100%;
+        height: auto;
+        background-color: #FFFF;
+    }
+
+    .FAQHeading {
+        font-family: 'TT Norms Pro Bold';
+        font-style: normal;
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #121E0E;
+        
+        padding: 0 5% 8% 5%;
+    }   
+}

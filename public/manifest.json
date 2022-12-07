@@ -1,0 +1,25 @@
+{
+  "short_name": "Carrot",
+  "name": "Carrot",
+  "icons": [
+    {
+      "src": "carrot.png",
+      "type": "image/png",
+      "sizes": "90x23"
+    },
+    {
+      "src": "carrot@2x.png",
+      "type": "image/png",
+      "sizes": "180x46"
+    },
+    {
+      "src": "carrot@3x.png",
+      "type": "image/png",
+      "sizes": "270x69"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#353535",
+  "background_color": "#FFFFFF"
+}

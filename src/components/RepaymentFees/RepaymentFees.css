@@ -1,0 +1,145 @@
+nav {
+    display: flex;
+    color: grey;
+}
+
+.span {
+    margin-top: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+div.icon {
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: -230px;
+}
+
+.ellipse-notify {
+    margin-top: 25px;
+}
+
+.ellipse {
+    margin-bottom: 10px;
+}
+
+.image {
+    padding: 20px 430px;
+    cursor: pointer;
+}
+
+.repay-content {
+    margin-left: 430px;
+    color: #353535;
+}
+
+.arrow {
+    margin-left: 430px;
+    padding-top: 20px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.arrow-image {
+    background-color: rgb(214, 231, 231);
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgb(214, 231, 231);
+    margin-top: 30px;
+}
+
+.repay-method {
+    margin-left: 430px;
+}
+
+.syn {
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.bank-transfer {
+    display: flex;
+    cursor: pointer;
+}
+
+.processing-fee {
+    margin-left: 20px;
+    margin-top: 27px;
+}
+
+.great {
+    margin-left: 110px;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.key {
+    margin-left: 80px;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.naira-debit-card {
+    display: flex;
+    cursor: pointer;
+}
+
+.vector-image {
+    background-color: #eed8b2;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #eed8b2;
+    margin-top: 30px;
+}
+
+.vec {
+    margin-top: 6px;
+    margin-left: 8px;
+}
+
+.note {
+    margin-left: 430px;
+    margin-top: 250px;
+}
+
+button {
+    background-color: #D20202;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #D20202;
+    height: 25px;
+}
+
+@media all and (max-width: 519px) {
+    .App {
+        margin-left: -400px;
+    }
+}
+
+@media all and (max-width: 699px) and (min-width: 520px) {
+    .App {
+        margin-left: -340px;
+    }
+}
+
+@media all and (max-width: 1000px) and (min-width: 700px) {
+    .App {
+        margin-left: -250px;
+    }
+}
+
+@media all and (max-width: 1200px) and (min-width: 1001px) {
+    .App {
+        margin-left: -100px;
+    }
+}
+

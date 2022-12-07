@@ -1,0 +1,287 @@
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+        
+    50% {
+        transform: translate(0, 4px);
+    }
+}
+
+.section2 {
+    width: 100%;
+    height: calc(2 * 65vw);
+}
+
+.businessItem {
+    background-image: url(./images/section2/business-m-1x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 52%;
+    text-align: center;
+    
+}
+
+.shopperItem {
+    background-image: url(./images/section2/shopper-m-1x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: 52%;
+    text-align: center;
+}
+
+.section2Heading {
+    font-family: 'TT Norms Pro Bold';
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    color: #121E0E;
+
+    padding: 7% 2% 2% 2%;
+
+    /* padding: 1.5rem .5rem .5rem .5rem; */
+
+}
+
+.section2ExtraParagraph {
+    display: none;
+}
+
+.section2Button {
+    margin: 2% 0 2% 0;
+    width: 100%;
+    height: 15%;
+}
+
+.section2Button button {
+    width: 32%;
+    height: 100%;
+    background: #FE5000;
+    border-radius: 999px;
+
+    font-family: 'TT Norms Pro Bold';
+    font-style: normal;
+    font-size: .8rem;
+    line-height: 1rem;
+    color: #FFFF;
+
+    animation: bounce 2s infinite;
+}
+
+*:focus {
+    outline: none;
+    text-decoration: none;
+} 
+
+.noBorderOutline {
+    border: 0;
+    outline: 0;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+.section2ExtraParagraph {
+    display: none;
+}
+
+@media only screen and (min-width: 420px) {
+    .businessItem {
+        background-image: url(./images/section2/business-m-1p5x.png);
+        text-align: center;
+    }
+    
+    .shopperItem {
+        background-image: url(./images/section2/shopper-m-1p5x.png);
+        text-align: center;
+    }
+
+    .section2Heading {
+        font-family: 'TT Norms Pro Bold';
+        font-style: normal;
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #121E0E;
+    
+        padding: 8% 2% 2% 2%;
+        /* padding: 1.5rem .5rem .5rem .5rem; */
+    }
+
+    .section2Button {
+        margin: 2% 0 2% 0;
+        width: 100%;
+        height: 15%;
+        max-height: 3rem;
+    }
+
+    .section2Button button {
+        max-width: 10rem;
+        width: 30%;
+        height: 100%;
+        background: #FE5000;
+        border-radius: 999px;
+    
+        font-family: 'TT Norms Pro Bold';
+        font-style: normal;
+        font-size: 1rem;
+        line-height: 1rem;
+        color: #FFFF;
+    }
+}
+
+
+@media only screen and (min-width: 720px)
+{
+    .section2 {
+        display: flex;
+        height: 48vw;
+    }    
+
+    .businessItem {
+        background-image: url(./images/section2/business-d-1x.png);
+        height: 100%;
+        flex: 1 1 50%;
+        text-align: center;
+    }
+    
+    .shopperItem {
+        background-image: url(./images/section2/shopper-d-1x.png);
+
+        height: 100%;
+        flex: 1 1 50%;
+        text-align: center;
+    } 
+
+    .section2Heading {
+        font-family: 'TT Norms Pro Bold';
+        font-style: normal;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: #121E0E;
+    
+        padding: 6% 2% 2% 2%;
+    }
+
+    .section2ExtraParagraph {
+        display: inline-block;
+        width: 67%;
+
+        font-family: 'TT Norms Pro Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: .74rem;
+        line-height: 1.2rem;
+        letter-spacing: 0.01em;
+        color: #121E0E;
+
+        padding: .5rem;
+    }
+
+    .section2Button {
+        margin: .8rem 0 .5rem 0;
+        width: 100%;
+        height: 9%;
+        max-height: 37px;
+    }
+
+    .section2Button button {
+        width: 6.3rem;
+        max-width: 112px;
+        height: 1.9rem;
+        background: #FE5000;
+        border-radius: 999px;
+    
+        font-family: 'TT Norms Pro Medium';
+        font-style: normal;
+        font-size: .65rem;
+        line-height: 1rem;
+        color: #FFFF;
+    }
+}
+
+
+@media only screen and (min-width: 960px)
+{
+    .section2 {
+        display: flex;
+        height: 45vw;
+    }
+    
+    .businessItem {
+        background-image: url(./images/section2/business-d-1x.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+        height: 100%;
+        flex: 1 1 50%;
+
+        text-align: center;
+    }
+    
+    .shopperItem {
+        background-image: url(./images/section2/shopper-d-1x.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        height: 100%;
+        flex: 1 1 50%;
+
+        text-align: center;
+    }
+    
+    .section2Heading {
+        font-family: 'TT Norms Pro Bold';
+        font-style: normal;
+        font-size: 2.2rem;
+        line-height: 3rem;
+        color: #121E0E;
+
+        padding: 2.5rem .5rem .5rem .5rem;
+    }
+
+    .section2ExtraParagraph {
+        display: inline-block;
+        width: 50%;
+
+        font-family: 'TT Norms Pro Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: .85rem;
+        line-height: 1.2rem;
+        letter-spacing: 0.01em;
+        color: #121E0E;
+
+        padding: .5rem;
+    }
+
+    .section2Button {
+        margin: 1.1rem 0 .5rem 0;
+        width: 100%;
+        height: 8%;
+        max-height: none;
+    }
+
+    .section2Button button {
+        width: 7.3rem;
+        height: 2.1rem;
+        max-width: none;
+        background: #FE5000;
+        border-radius: 999px;
+
+        font-family: 'TT Norms Pro Medium';
+        font-style: normal;
+        font-size: .75rem;
+        line-height: 1rem;
+        color: #FFFF;
+    }
+
+    
+}

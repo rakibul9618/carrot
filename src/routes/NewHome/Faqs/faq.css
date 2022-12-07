@@ -1,0 +1,9 @@
+.question-container-open {
+  max-height: 500px !important;
+  transition: max-height 1.4s ease-in;
+}
+
+.question-container-close {
+  max-height: 0 !important;
+  transition: max-height 0.4s ease-out;
+}

@@ -1,0 +1,126 @@
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+        
+    50% {
+        transform: translate(0, 4px);
+    }
+}
+
+.navbar {
+    background-color: #F9F8F7;
+    width: 100%;
+    padding-top: 0;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+    margin-right: 5rem;
+    padding-top: 11px;
+}
+
+.navbar-toggler {
+    outline: none;
+    border: none;
+}
+
+.midNavItem {
+    margin: auto;
+}
+
+.icon-black {
+    color: #121E0E;
+}
+
+.navButton button {
+    width: 120px;
+    height: 35px;
+    margin-left: 14px;
+    margin-right: 16px;
+    background: #FE5000;
+    border-radius: 999px;
+    font-family: 'TT Norms Pro Medium';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFF;
+    font-weight: 500;
+
+    animation: bounce 2s infinite;
+}
+
+.navBtnBorderRadius {
+    border-radius: 30px;
+}
+
+.noBorderOutline {
+    border: 0;
+    outline: 0;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    box-shadow: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+} 
+
+.buttonBackground {
+    background-color: #FE5000;
+}
+
+.navbar-nav li {
+    font-family: 'TT Norms Pro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    color: #121E0E !important;
+}
+
+a.nav-link {
+    color: #121E0E !important;
+    font-size: 13px;
+    line-height: 25px;
+    margin-left: 25px;
+    margin-right: 0px;
+}
+
+@media only screen and (max-width: 992px)
+{
+    .navbar-collapse {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        background-color: #FFFFFF;
+        height: 200px;
+        border-radius: 10px;
+        width: 300px;
+    }
+    .navbar-toggler {
+        z-index: 1000000;
+    }
+}
+
+@media only screen and (max-width: 545px)
+{
+    .navbar-collapse {
+        height: 200px;
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width: 992px)
+{
+    .navbar {
+        height: 61px;
+    }
+
+    .navbar-brand {
+        padding-top: 0;
+    }
+}

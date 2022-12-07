@@ -1,0 +1,122 @@
+
+.footerSection {
+    width: 100%;
+    height: auto;
+    padding: 0 0 20% 0;
+}
+
+.footerLinkDiv {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 5% 1% 5% 5%;
+}
+
+.footerLink {
+    flex: 1 1 50%;
+    padding: 7% 0;
+}
+
+.footerLinkHeader {
+    font-family: 'TT Norms Pro Bold';
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #121E0E;
+}
+
+.footList ul {
+    font-family: 'TT Norms Pro Regular';
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #121E0E;
+
+    padding: 0;  
+    margin: 0;
+}
+
+.footList ul li{
+    list-style-type: none;
+}
+
+.footList a {
+    text-decoration: none;
+    color: #121E0E;
+}
+
+.footerText {
+    font-family: 'TT Norms Pro Regular';
+    font-style: normal;
+    font-size: .8rem;
+    line-height: 1.5rem;
+    color: #121E0E;
+    padding: 0 4%;
+}
+
+.footerText hr {
+    margin: 0 0 13% 0;
+    height: .5px;
+}
+
+.footerText a {
+    color: #121E0E;
+}
+
+.carrotLogoFooter {
+    display: none;
+}
+
+@media only screen and (min-width: 720px)
+{
+    .footerSection {
+        padding: 0 15% 20% 15%;
+    }
+
+    .carrotLogoFooter {
+        display: block;
+        flex: 1 1 20%;
+        padding-top: 12%;
+    }
+
+    .footerFlex {
+        display: flex;
+    }
+
+    .footerLink {
+        flex: 1 1 30%;
+        padding: 3% 3%;
+    }
+
+    .footerLinkDiv {
+        flex: 1 0 50%;
+    }
+
+    .footerLinkHeader {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    
+    .footList ul {
+        font-size: .8rem;
+        line-height: 1.8rem;
+    }
+
+    .footerText {
+        font-size: .7rem;
+        line-height: 1.3rem;
+        padding: 0;
+    }
+
+    .footerText hr {
+        margin: 0 0 7% 0;
+    }
+}
+
+
+@media only screen and (min-width: 960px)
+{
+    
+
+}

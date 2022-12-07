@@ -1,0 +1,29 @@
+name: Carrot React Application Workflow
+
+on:
+  push: 
+    branches: 
+      - '*'
+
+jobs:
+  verify_application:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      
+      # - name: Run tests
+      #   run: npm run test
+
+      - name: Installation
+        run: |
+          sudo npm install --global yarn@1.22.5
+          yarn install
+
+      - name: Lint
+        run: |
+          npx eslint --fix-dry-run .
+
+      - name: Build
+        run: |
+          yarn build

@@ -1,0 +1,406 @@
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+        
+    50% {
+        transform: translate(0, 4px);
+    }
+}
+
+.getStartedSection {
+    width: 100%;
+    height: auto;
+    background-color:#F5F5F5;
+}
+
+.getStartedText{ 
+    font-family: 'TT Norms Pro Bold';
+    font-style: normal;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    color: #121E0E;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.getStartedImage {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17% 0;
+}
+
+.getStartedImage img {
+    width: 55%;
+    height: auto;
+    max-width: 25rem;
+}
+
+.getStartedInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 26%;
+}
+
+.formHeight{
+    height: 4rem;
+}
+
+.formWidth {
+    width: 19.4rem;
+}
+
+.textAreaHeight {
+    height: 9.3rem;
+}
+
+.paddingTopNBottom {
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    padding-left: 2.1rem;
+    color: #73767a;    
+    text-align: start;
+}
+
+.marginTopNBottom {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.extraBottomMargin {
+    margin-bottom: 0.8rem;
+}
+
+.formBorderRadius {
+    border-radius: 6.25rem;
+}
+
+.textAreaBorderRadius {
+    border-radius: 1.25rem;
+}
+
+.whiteBackground {
+    background-color: #FFFF;
+}
+
+.noBorderOutline {
+    border: 0;
+    outline: 0;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+*:focus {
+    outline: none;
+    text-decoration: none;
+}   
+
+.getStartedButton {
+    width: 19.4rem;
+    height: 4rem;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    background: #FE5000;
+    border-radius: 6.25rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    font-family: 'TT Norms Pro Bold';
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    color: #FFFFFF;
+
+    animation: bounce 2s infinite;
+}
+
+.checkForm {
+    margin-top: 0;
+    margin-bottom: .62rem;
+}
+
+.form-check-label {
+    font-family: 'TT Norms Pro Light';
+    font-style: normal;
+    /* font-weight: 300; */
+    font-size: .8rem;
+    line-height: 1rem;
+    color: #6E7272;
+    padding-top: .5rem;
+}
+
+.checkForm input {
+    font-size: 1.25rem;
+    line-height: 1rem;
+    border-color: #6E7272;
+    background: #F5F5F5;
+    border: .5px solid;
+}
+
+.terms {
+    padding-left: .62rem;
+    padding-right: .62rem;
+    margin-top: .31rem;
+
+    font-family: 'TT Norms Pro Light';
+    /* font-weight: 300; */
+    font-size: .81rem;
+    line-height: 1.31rem;
+    color: #6E7272;
+}
+
+.terms a {
+    /* text-decoration: none; */
+    color: #6E7272;
+}
+ 
+.bi-chevron-down{
+    background: none;
+    margin-left: 9.37rem;
+    font-size: .93rem;
+    font-weight: 900;
+    color: #767675;
+}
+
+textarea { 
+    resize: none;
+}
+
+ul.dropdown-menu {
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.notificationParagraph {
+    margin: 0;
+    font-family: 'TT Norms Pro Bold';
+    font-style: normal;
+    font-size: .8rem;
+    line-height: 1rem;
+    padding: 0;
+}
+
+.notificationParagraph.successP {
+    color: #00ab84;
+}
+
+.notificationParagraph.errorP {
+    color: #ff9f19;
+}
+
+@media only screen and (min-width: 420px)
+{
+    .getStartedText{ 
+        padding-top: 7%;
+    }
+
+    .getStartedImage {
+        padding: 13% 0;
+    }
+
+    .getStartedText{ 
+        font-family: 'TT Norms Pro Bold';
+        font-style: normal;
+        font-size: 2.0rem;
+        line-height: 2.5rem;
+        color: #121E0E;
+        text-align: center;
+        padding-top: 15%;
+    }
+
+    .getStartedInput {
+        padding-bottom: 8%;
+    }
+    
+    .getStartedImage img {
+        max-width: 22rem;
+    }
+}
+
+
+@media only screen and (min-width: 720px) and (max-width: 960px)
+{
+    .getStartedSection {
+        padding: 0 10% 0 10%;
+    }
+
+    .getStartedInput {
+        height: auto;
+        max-width: 100%;
+
+        flex: 0 1 50%;
+        align-self: center;
+        padding: 3rem 2% 5rem 2%;
+    }
+
+    .getStartedImage {
+        max-width: 335px;
+        padding: 3rem 0;
+        flex: 0 1 50%;
+    }
+
+    .getStartedImage img {
+        width: 90%;
+        max-width: 290px;
+        height: auto;
+
+        align-self: flex-start;
+        padding: 1%;
+    }
+
+    .getStartedText{ 
+        padding-top: 8%;
+        font-size: 1.7em;
+        line-height: 2.5rem;  
+    }
+
+    .getStartedInput {
+        padding-bottom: 7%;
+    }
+
+    .getStartedImage img {
+        max-width: 22rem;
+    }
+
+    .getStartedImage {
+        padding: 9% 0;
+    }
+
+    .getStartedContent {
+        display: flex;
+    }
+
+    .formHeight input{
+        height: 3rem;
+    }
+    
+    .formWidth {
+        width: 15.5rem;
+    }
+    
+    .textAreaHeight {
+        height: 7.44rem;
+    }
+    
+    .paddingTopNBottom {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1.68rem;
+        color: #73767a;    
+        text-align: start;
+    }
+    
+    .marginTopNBottom {
+        margin-top: .4rem;
+        margin-bottom: .4rem;
+    }
+
+    .getStartedButton {
+        width: 15.52rem;
+        height: 3.2rem;
+        margin-top: .64rem;
+        margin-bottom: .8rem;
+        background: #FE5000;
+        border-radius: 6.25rem;
+        padding-top: 1.04rem;
+        padding-bottom: 1.04rem;
+        font-family: 'TT Norms Pro Bold';
+        font-style: normal;
+        font-size: 1rem;
+        line-height: 1rem;
+        color: #FFFF;
+    }
+
+    .checkForm input {
+        font-size: 1rem;
+        line-height: .8rem;
+        border-color: #6E7272;
+        background: #F5F5F5;
+        border: .5px solid;
+    }
+
+    .form-check-label {
+        font-family: 'TT Norms Pro Light';
+        font-style: normal;
+        /* font-weight: 300; */
+        font-size: .64rem;
+        line-height: .8rem;
+        color: #6E7272;
+        padding-top: .4rem;
+    }
+
+    .terms {
+        padding-left: .5rem;
+        padding-right: .5rem;
+        margin-top: .25rem;
+    
+        font-family: 'TT Norms Pro Light';
+        /* font-weight: 300; */
+        font-size: .64rem;
+        line-height: 1rem;
+        color: #6E7272;
+    }
+
+    .bi-chevron-down{
+        background: none;
+        margin-left: 6.5rem;
+        font-size: .9rem;
+        font-weight: 900;
+        color: #767675;
+    }
+
+} 
+
+
+@media only screen and (min-width: 960px)
+{    
+    .getStartedSection {
+        padding: 0 12% 0 12%;
+    }
+
+    .getStartedText{ 
+        padding-top: 9%;
+        font-size: 2.1rem;
+        line-height: 2.5rem;
+    }
+
+    .getStartedContent {
+        display: flex;
+    }
+
+    .getStartedImage {
+        padding: 5rem 0;
+        flex: 0 1 50%;
+    }
+
+    .getStartedImage img {
+        width: 80%;
+        height: auto;
+
+        align-self: flex-start;
+        padding: 1%;
+    }
+
+    .getStartedInput {
+        height: auto;
+        max-width: 100%;
+
+        flex: 0 1 50%;
+        align-self: center;
+        padding: 3rem 2% 5rem 2%;
+    }
+
+}

@@ -1,0 +1,178 @@
+
+.uniqueSection {
+    width: 100%;
+    height: auto;
+    background-color: #FFFF;
+    text-align: center;
+    margin: 0 0 11% 0;
+}
+
+
+.uniqueHeader {
+    font-family: 'TT Norms Pro Bold';
+    font-style: normal;
+    font-size: 170%;
+    line-height: 2rem;
+    color: #121E0E;
+    margin-bottom: 5%;
+}
+
+.uniqueImage {
+    position: relative;
+    height: auto;
+}
+
+.uniqueImage img {
+    width: 87%;
+    border-radius: 3%;
+    margin: 4% 0;
+}
+
+.textOverImage {
+    position: absolute;
+    z-index: 1;
+    top: 12vw;
+    left: 17vw;
+}
+
+.uniqueTitle {
+    font-family: 'TT Norms Pro Bold';
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #121E0E;
+    text-align: left;
+    padding: 1vw 40vw 1vw 0;
+}
+
+.uniqueExtraParagraph {
+    display: none;
+}
+
+.desktopUniqueImg {
+    display: none;
+}
+
+@media only screen and (min-width: 420px)
+{
+    .desktopUniqueImg {
+        display: inline-block;
+        /* width: 50%; */
+    }
+
+    .mobileUniqueImg {
+        display: none;
+    }
+
+    .uniqueTitle {
+        font-size: 1.6rem;
+        line-height: 2rem;
+        padding: 1vw 45vw 1vw 0;
+    }
+}
+
+
+@media only screen and (min-width: 720px)
+{
+
+    .desktopUniqueImg {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .textOverImage {
+        position: absolute;
+        z-index: 1;
+        top: 2.5vw;
+        left: 12vw;
+    }
+    
+    .uniqueTitle {
+        font-family: 'TT Norms Pro Bold';
+        font-style: normal;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #121E0E;
+        text-align: left;
+        padding: 1vw 18vw 0vw 0;
+    }
+
+    .uniqueExtraParagraph {
+        display: block;
+        font-family: 'TT Norms Pro Regular';
+        font-style: normal;
+        font-size: .65rem;
+        line-height: 1rem;
+        color: #121E0E;
+        text-align: left;
+        padding: 0vw 20vw 1vw 0;
+    }
+
+    .uniqueSection {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        padding: 0 0 10% 0;
+        margin: 0;
+        background: #E5E5E5;
+    }
+
+    .uniqueImage, .uniqueHeader {
+        flex: 0 0 50%;
+    }
+
+    .uniqueImage img {
+        width: 65%;
+        border-radius: 2%;
+        margin: 2% 0;
+    }
+
+    .uniqueHeader {
+        margin: 0;
+        margin-left: 10%;
+        margin-right: -15.4%;
+        margin-top: 1%;
+        padding: 0 18% 0 12%;
+        text-align: left;
+        font-size: 150%;
+        line-height: 2rem;
+    }
+
+    .boxLeft {
+        margin-top: -19%;
+        margin-left: 10%;
+        margin-right: -15.4%;
+    }
+
+    .boxLeft.down {
+        margin-top: -18.2%;
+    }
+
+}
+
+
+@media only screen and (min-width: 960px)
+{
+    .uniqueHeader {
+        font-size: 200%;
+        line-height: 2rem;
+    }
+
+    .textOverImage {
+        position: absolute;
+        z-index: 1;
+        top: 2.8vw;
+        left: 12vw;
+    }
+
+    .uniqueTitle {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+        padding: 1vw 20vw 1vw 0;
+    }
+
+    .uniqueExtraParagraph {
+        font-size: .75rem;
+        line-height: 1.2rem;
+    }
+}
